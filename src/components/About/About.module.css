@@ -27,6 +27,26 @@
 
 .aboutImage {
   width: 35%;
+  border-radius: 20px;
+  border: 5px solid rgb(0, 174, 255);
+  z-index: 1;
+
+  animation-name: float;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 20px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 .aboutItems {

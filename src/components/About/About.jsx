@@ -12,7 +12,7 @@ export const About = () => {
           src={getImageUrl("about/aboutImage.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
-        />
+        /> &nspr;
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
